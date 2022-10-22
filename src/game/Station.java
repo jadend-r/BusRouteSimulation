@@ -75,7 +75,7 @@ public class Station {
 			}
 		}
 		while (!tempQueue.isEmpty())
-			passengerQueue.enqueue(tempQueue.dequeue()); // Requeue passengers who failed to board back into station
+			enqueuePassenger(tempQueue.dequeue()); // Requeue passengers who failed to board back into station
 															// queue
 	}
 
