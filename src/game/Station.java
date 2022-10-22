@@ -76,7 +76,7 @@ public class Station {
 		}
 		while (!tempQueue.isEmpty())
 			enqueuePassenger(tempQueue.dequeue()); // Requeue passengers who failed to board back into station
-															// queue 
+															// queue
 	}
 
 	private void enqueuePassenger(Passenger passenger) {
